@@ -7,7 +7,7 @@
 - cp -r /home/hope/files/* /home/hope/backup
 
 # Windows
-- Xcopy [copy from path] [copy to path] /E /H /C /I
+- Xcopy [from path] [to path] /E /H /C /I
 
 # Gradle
 - gradle build
