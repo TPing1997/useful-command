@@ -36,3 +36,4 @@
 
 # SVN
 - svnserve -d -r [path to repository] --listen-host: 127.0.0.1 --listen-port: 3690
+- svn info svn://localhost/$REPO_NAME
