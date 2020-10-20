@@ -3,7 +3,7 @@
 - ps -aef | grep [something]
 - rm -r *
 - ls -lrt
-- kill -9 <pid>
+- kill -9 [pid]
 - cp -r /home/hope/files/* /home/hope/backup
 
 # Windows
@@ -30,7 +30,7 @@
 # GitHub
 - git init
 - git add .
-- git remote add origin https://<github repository>.git
+- git remote add origin https://[github repository].git
 - git commit -m "[comment]"
 - git push origin master --force
 
