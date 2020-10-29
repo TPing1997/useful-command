@@ -21,8 +21,8 @@
 
 # Angular
 - npm install
+- npm prune
 - ng serve
-- ng prune
 
 # GitHub
 - git init
