@@ -1,13 +1,14 @@
 # Linux
 - netstat -aon
-- ps -aef | grep [something]
+- ps -aef | grep { something }
 - rm -r *
 - ls -lrt
-- kill -9 [pid]
+- kill -9 { pid }
 - cp -r /home/hope/files/* /home/hope/backup
 
 # Windows
-- Xcopy [from path] [to path] /E /H /C /I
+- Xcopy { from path } { to path } /E /H /C /I
+- sfc /scannow
 
 # Gradle
 - gradle build
@@ -19,8 +20,8 @@
 - mvn versions: set -N
 
 # Nircmd
-- nircmd execmd [ur command here]
-- nircmd exec [ur bat file here]
+- nircmd execmd { ur command here }
+- nircmd exec { ur bat file here }
 
 # Angular
 - npm install
@@ -30,10 +31,10 @@
 # GitHub
 - git init
 - git add .
-- git remote add origin https://[github repository].git
-- git commit -m "[comment]"
+- git remote add origin https://{ github repository }.git
+- git commit -m "{ comment }"
 - git push origin master --force
 
 # SVN
-- svnserve -d -r [path to repository] --listen-host: 127.0.0.1 --listen-port: 3690
+- svnserve -d -r { path to repository } --listen-host: 127.0.0.1 --listen-port: 3690
 - svn info svn://localhost/$REPO_NAME
