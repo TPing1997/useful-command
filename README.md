@@ -19,9 +19,10 @@
 - nircmd execmd { ur command here }
 - nircmd exec { ur bat file here }
 
-# Angular
+# Node(npm) And Angular(ng)
 - npm install
 - npm prune
+- npm ls
 - ng serve
 
 # GitHub
