@@ -39,3 +39,7 @@
 # Windows
 - Xcopy { from path } { to path } /E /H /C /I
 - sfc /scannow
+- nslookup { domain name }
+- tracert { domain name }
+- ping { ip adress }
+
