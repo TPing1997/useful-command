@@ -5,6 +5,9 @@
 - ls -lrt
 - kill -9 { pid }
 - cp -r { from path } { to path }
+- rm -r { File Directory }
+- unzip { folder }
+- mv { from directory } { to directory }
 
 # Gradle
 - gradle build
