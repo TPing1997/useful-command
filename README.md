@@ -6,7 +6,7 @@
 - kill -9 { pid }
 - cp -r { from path } { to path }
 - rm -r { File Directory }
-- unzip { folder }
+- unzip { from zip folder } -d { to folder }
 - mv { from directory } { to directory }
 
 # Gradle
