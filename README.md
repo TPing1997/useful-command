@@ -8,6 +8,7 @@
 - rm -r { File Directory }
 - unzip { from zip folder } -d { to folder }
 - mv { from directory } { to directory }
+- find . -name "*{file name}*"
 
 # Gradle
 - gradle build
