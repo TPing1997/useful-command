@@ -10,6 +10,7 @@
 - mv { from directory } { to directory }
 - find . -iname "*{file name}*"
 - ifconfig | grep broadcase | awk '{print $2}'
+- alias whatismyipaddress="echo $(ifconfig | grep broadcase | awk '{print $2}')"
 
 # Gradle
 - gradle build
