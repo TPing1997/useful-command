@@ -9,6 +9,7 @@
 - unzip { from zip folder } -d { to folder }
 - mv { from directory } { to directory }
 - find . -iname "*{file name}*"
+- ifconfig | grep broadcase | awk '{print $2}'
 
 # Gradle
 - gradle build
