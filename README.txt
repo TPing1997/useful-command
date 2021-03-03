@@ -51,3 +51,18 @@
 
 # Wildfly
 - standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0
+
+# sql
+## sybase
+select * from table_name
+go
+output to "C:/User/ping/outputfile.csv"
+
+## sql server
+BULK INSERT Sales.Orders
+FROM 'C:/User/ping/outputfile.csv'
+WITH ( FORMAT='CSV');
+
+select t1.* from table1 t1
+right outer join table2 t2
+on t1.id = t2.id
