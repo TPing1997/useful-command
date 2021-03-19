@@ -37,6 +37,7 @@
 - git remote add origin https://{ github repository }.git
 - git commit -m "{ comment }"
 - git push origin master --force
+- git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 
 # SVN
 - svnserve -d -r { path to repository } --listen-host: 127.0.0.1 --listen-port: 3690
